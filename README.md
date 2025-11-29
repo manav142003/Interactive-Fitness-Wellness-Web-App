@@ -15,4 +15,4 @@
 - **JavaScript** - Interactivity and dynamic features  
 
 
-## Site: https://rutvikp003.github.io/BeingFit_V1/  
+ 
