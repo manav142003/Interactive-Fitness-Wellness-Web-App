@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+      - name: Debug host
+        run: |
+          echo "HOST=${{ secrets.EC2_HOST }}"
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.0
         with:
